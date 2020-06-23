@@ -73,20 +73,17 @@ body {
   margin: auto;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
-  height: 44px;
 }
 .buscador_buscar {
   width: auto;
+  display: flex;
+  justify-content: center;
 }
 .buscador_buscar input {
   width: 100%;
   border: 0 none transparent;
   font-size: 16px;
   margin-left: 10px;
-}
-.buscador_buscar {
-  display: flex;
-  justify-content: center;
 }
 
 .buscador_lupa p {
@@ -166,6 +163,9 @@ footer ul li a {
   text-decoration: none;
 }
 
+.buscador_barra:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
 .buscador_buscar input:focus {
   border: 0 none transparent;
   outline: none;
